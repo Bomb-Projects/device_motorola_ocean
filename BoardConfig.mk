@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := ocean
 TARGET_SCREEN_DENSITY := 320
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := ocean_defconfig
